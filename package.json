@@ -11,7 +11,9 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha tests --recursive"
+    "lint:fix": "eslint . --fix",
+    "lint:rules": "eslint . --rulesdir tests/lib/rules",
+    "add-file": "cp-cli tests/lib/rules lib/rules"
   },
   "dependencies": {
     "requireindex": "^1.2.0"
@@ -20,7 +22,7 @@
     "eslint": "^8.0.1",
     "eslint-plugin-eslint-plugin": "^4.0.1",
     "eslint-plugin-node": "^11.1.0",
-    "mocha": "^9.1.3"
+    "cp-cli": "^1.0.2"
   },
   "engines": {
     "node": "12.x || 14.x || >= 16"
