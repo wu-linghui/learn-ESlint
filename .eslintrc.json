@@ -1,9 +1,9 @@
 {
   "root": true,
   "extends": [
-    "eslint:recommended",
-    "plugin:eslint-plugin/recommended",
-    "plugin:node/recommended"
+    "eslint:recommended"
+    // "plugin:eslint-plugin/recommended",
+    // "plugin:node/recommended"
   ],
   "env": {
     "node": true,
@@ -14,6 +14,9 @@
       "files": ["tests/**/*.js"],
       "env": { "mocha": true }
     }
+  ],
+  "plugins": [
+    // "xxxxx" // 通过读取node_modules包里的eslint-plugins-xxxx/lib/rules下的自定义规则
   ],
   "rules": {
     "indent":[
@@ -36,7 +39,8 @@
     "no-unused-vars":"warn",
     "no-restricted-imports":[2,"lodash"],
     "eqeqeq":["error","always"],
-    // "find-todo":["error","fixme","todo"],
-    "find-deprecated":["error"]
+    // "xxxx/find-deprecated":["error"], 
+    "find-deprecated":["error"], // // 通过读取node_modules包里的eslint-plugins-xxxx/lib/rules下的自定义规则
+    "find-todo":["error","fixme","todo"]
   }
 }
