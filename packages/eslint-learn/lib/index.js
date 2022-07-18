@@ -1,6 +1,6 @@
 /**
- * @fileoverview sudongyuer&#39;s plugin
- * @author sudongyuer
+ * @fileoverview wulinghui&#39;s plugin
+ * @author wulinghui
  */
 
 //------------------------------------------------------------------------------

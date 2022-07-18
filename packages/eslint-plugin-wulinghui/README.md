@@ -1,6 +1,6 @@
-# eslint-plugin-sudongyuer
+# eslint-plugin-wulinghui
 
-sudongyuer&#39;s plugin
+wulinghui&#39;s plugin
 
 ## Installation
 
@@ -10,20 +10,20 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-sudongyuer`:
+Next, install `eslint-plugin-wulinghui`:
 
 ```sh
-npm install eslint-plugin-sudongyuer --save-dev
+npm install eslint-plugin-wulinghui --save-dev
 ```
 
 ## Usage
 
-Add `sudongyuer` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `wulinghui` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "sudongyuer"
+        "wulinghui"
     ]
 }
 ```
@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "sudongyuer/rule-name": 2
+        "wulinghui/rule-name": 2
     }
 }
 ```
