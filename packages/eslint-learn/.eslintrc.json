@@ -21,6 +21,7 @@
        在与plugin通过在plugins里注册后需在rules里导入所需自定义规则-xxxx/xxxx: 2
        config则是在extends里注册后便可自动生效该config里所有的规则，可通过rules覆盖修改同一规则
     */
+    "eslint-plugin-wulinghui",
     "promise"
     // "xxxxx" // 通过读取node_modules包里的eslint-plugins-xxxx/lib/rules下的自定义规则
   ],
@@ -46,8 +47,9 @@
     "no-restricted-imports":[2,"lodash"],
     "eqeqeq":["error","always"],
     // "xxxx/find-deprecated":["error"], 
-    "find-deprecated":["error"], // // 通过读取node_modules包里的eslint-plugins-xxxx/lib/rules下的自定义规则
-    "find-todo":["error","fixme","todo"],
+    // "find-deprecated":["error"], // // 通过读取node_modules包里的eslint-plugins-xxxx/lib/rules下的自定义规则
+    // "find-todo":["error","fixme","todo"],
+    "wulinghui/find-todo":["error","fixme","todo"],
     "promise/catch-or-return": 2,
     "no-console": 0,
     "no-restricted-syntax": 0
