@@ -16,8 +16,8 @@ module.exports = {
       env: { mocha: true },
     },
   ],
-  "rules": {
-    "requireSchemaPropertyWhenOptionless": "0",
+  rules: {
+    "requireSchemaPropertyWhenOptionless": 0
     // "semi":[2,"never"]
-},
+  },
 };
