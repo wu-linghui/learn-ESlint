@@ -2,7 +2,8 @@
   "root": true,
   "extends": [
     "eslint:recommended",
-    "airbnb-base"
+    "airbnb-base",
+    "plugin:wulinghui/wulinghuiConfig"
     // "plugin:eslint-plugin/recommended",
     // "plugin:node/recommended"
   ],
@@ -49,7 +50,7 @@
     // "xxxx/find-deprecated":["error"], 
     // "find-deprecated":["error"], // // 通过读取node_modules包里的eslint-plugins-xxxx/lib/rules下的自定义规则
     // "find-todo":["error","fixme","todo"],
-    "wulinghui/find-todo":["error","fixme","todo"],
+    // "wulinghui/find-todo":["error","fixme","todo"],
     "promise/catch-or-return": 2,
     "no-console": 0,
     "no-restricted-syntax": 0
