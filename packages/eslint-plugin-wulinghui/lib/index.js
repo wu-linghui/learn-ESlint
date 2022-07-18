@@ -21,7 +21,8 @@ module.exports.rules = requireIndex(__dirname + "/rules");
 module.exports.configs={
   wulinghuiConfig:{
     rules:{
-      "wulinghui/find-todo":["error","todo","fixme"]
+      "wulinghui/find-todo":["error","todo","fixme"],
+      "wulinghui/find-deprecated": ["error"]
     }
   }
 }
